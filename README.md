@@ -2,7 +2,40 @@
 
 ## Description du Projet
 
-La segmentation manuelle d’images médicales est une pratique très courante en milieu hospitalier. Cependant, celle-ci est fastidieuse, redondante, et soumise à un fort biais inter-experts. Dans un objectif d’optimisation, de libération de temps pour les soignants et d’uniformisation, la segmentation automatique est l'un des principaux enjeux actuels de deep-learning. En effet, pouvoir modéliser les organes avec précision serait un grand atout pour la planification de chirurgie, le suivi thérapeutique ou la pose de diagnostic. On cherche alors à développer une méthode automatisée de délimitation des vaisseaux sanguins. Dans le cas du fois, on souhaite segmenter l’arbre vasculaire hépatique en mettant l’accent sur la préservation des petites structures à topologie complexe.  
+La segmentation manuelle d’images médicales est une pratique très courante en milieu hospitalier. Cependant, celle-ci est fastidieuse, redondante, et soumise à un fort biais inter-experts. Dans un objectif d’optimisation, de libération de temps pour les soignants et d’uniformisation, la segmentation automatique est l'un des principaux enjeux actuels de deep-learning. En effet, pouvoir modéliser les organes avec précision serait un grand atout pour la planification de chirurgie, le suivi thérapeutique ou la pose de diagnostic. On cherche alors à développer une méthode automatisée de délimitation des vaisseaux sanguins. Dans le cas du foie, on souhaite segmenter l’arbre vasculaire hépatique en mettant l’accent sur la préservation des petites structures à topologie complexe.  
+
+## Méthodes
+### UNet
+
+**U-Net : convolutional networks for biomedical image segmentation**
+
+*O. Ronneberger et al.*
+
+![alt text](img/unet.png)
+
+### TopNet
+
+**TopNet : Topology preserving metric learning for vessel tree reconstruction and labeling**
+
+*D. Keshwani et al.*
+
+![alt text](img/topnet.png)
+
+### ClDice
+
+**Beyond the pixel-wise loss for topology-aware delineation**
+
+*A. Mosinska et al.*
+
+![alt text](img/cldice.png)
+
+### Features Maps
+
+**clDice - A Novel Topology-Preserving Loss Function for Tubular Structure Segmentation**
+
+*S. Shit et al.*
+
+![alt text](img/features-maps.png)
 
 ## Ressources
 ### Introduction
