@@ -2,6 +2,8 @@
 
 ## Description du Projet
 
+La segmentation manuelle d’images médicales est une pratique très courante en milieu hospitalier. Cependant, celle-ci est fastidieuse, redondante, et soumise à un fort biais inter-experts. Dans un objectif d’optimisation, de libération de temps pour les soignants et d’uniformisation, la segmentation automatique est l'un des principaux enjeux actuels de deep-learning. En effet, pouvoir modéliser les organes avec précision serait un grand atout pour la planification de chirurgie, le suivi thérapeutique ou la pose de diagnostic. On cherche alors à développer une méthode automatisée de délimitation des vaisseaux sanguins. Dans le cas du fois, on souhaite segmenter l’arbre vasculaire hépatique en mettant l’accent sur la préservation des petites structures à topologie complexe.  
+
 ## Ressources
 ### Introduction
 - [Sujet de projet](https://filesender.renater.fr/?s=download&token=142d0ae0-d553-4809-89c7-8ed28e8dcef4)
